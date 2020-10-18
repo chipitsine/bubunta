@@ -1,0 +1,15 @@
+name: bubunta
+
+on: [push]
+
+jobs:
+  20:
+      name: gcc
+      runs-on: ubuntu-latest
+      container:
+        image: ubuntu:20.04
+      steps:
+        - uses: actions/checkout@master
+        - name: hello world
+          run: lsb_release -a
+
