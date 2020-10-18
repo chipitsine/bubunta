@@ -3,7 +3,7 @@ name: bubunta
 on: [push]
 
 jobs:
-  20:
+  focal:
       name: gcc
       runs-on: ubuntu-latest
       container:
