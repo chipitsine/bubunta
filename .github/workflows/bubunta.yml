@@ -14,5 +14,5 @@ jobs:
           run: |
             cat /proc/version
             dpkg -l
-            ls /etc | grep ubuntu
+            cat /etc/issue
 
