@@ -11,5 +11,7 @@ jobs:
       steps:
         - uses: actions/checkout@master
         - name: hello world
-          run: cat /proc/version
+          run: |
+            cat /proc/version
+            dpkg -l
 
