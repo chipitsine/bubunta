@@ -11,5 +11,5 @@ jobs:
       steps:
         - uses: actions/checkout@master
         - name: hello world
-          run: lsb_release -a
+          run: cat /proc/version
 
